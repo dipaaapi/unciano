@@ -113,7 +113,7 @@ nav[class=navigation] {
     height: max-content;
 }
 .list ul li {
-    width: 70vw;
+    width: 30vw;
     height: 55vh;
     padding: 1rem;
     background-color: #78adc9;
@@ -122,6 +122,18 @@ nav[class=navigation] {
 .list ul li:hover {
 	box-shadow: 0 0 10px black;
 	transition: .5s;
+}
+.list ul li h4 {
+	text-transform: uppercase;
+}
+.list ul li p {
+
+}
+.p3 {
+	padding: 12vh 10px 10px 10px;
+    border: 10px solid white;
+    border-top: 12vh solid white;
+
 }
 .p3 h1 {
 	margin-top: 10vh;
